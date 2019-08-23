@@ -29,14 +29,14 @@ class Index extends React.Component {
     return (
       <Layout>
         <Helmet title="Abraham Ho" />
-        <Nav sticky={this.state.stickyNav} />
-        <Header />
-
         <Waypoint
           onEnter={this._handleWaypointEnter}
           onLeave={this._handleWaypointLeave}
         ></Waypoint>
         {/* <Nav sticky={this.state.stickyNav} /> */}
+
+        <Nav sticky={this.state.stickyNav} />
+        <Header />
 
         <div id="main">
           <section id="about" className="main">

@@ -14,35 +14,35 @@ textarea {
   font-weight: _font(weight);
   line-height: 1.65;
 
-  // @include breakpoint(xlarge) {
-  //   font-size: 14pt;
-  // }
+  @include breakpoint(xlarge) {
+    font-size: 14pt;
+  }
 
-  // @include breakpoint(large) {
-  //   font-size: 12pt;
-  // }
+  @include breakpoint(large) {
+    font-size: 12pt;
+  }
 
-  // @include breakpoint(xxsmall) {
-  //   font-size: 11pt;
-  // }
+  @include breakpoint(xxsmall) {
+    font-size: 11pt;
+  }
 }
 
-// a {
-//   @include vendor(
-//     "transition",
-//     (
-//       "color #{_duration(transition)} ease",
-//       "border-bottom #{_duration(transition)} ease"
-//     )
-//   );
-//   text-decoration: none;
-//   border-bottom: dotted 1px;
-//   color: inherit;
+a {
+  @include vendor(
+    "transition",
+    (
+      "color #{_duration(transition)} ease",
+      "border-bottom #{_duration(transition)} ease"
+    )
+  );
+  text-decoration: none;
+  border-bottom: dotted 1px;
+  color: inherit;
 
-//   &:hover {
-//     border-bottom-color: transparent;
-//   }
-// }
+  &:hover {
+    border-bottom-color: transparent;
+  }
+}
 
 strong,
 b {
