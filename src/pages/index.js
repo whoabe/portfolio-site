@@ -16,7 +16,6 @@ class Index extends React.Component {
       stickyNav: false,
     }
   }
-  // comment
 
   _handleWaypointEnter = () => {
     this.setState(() => ({ stickyNav: false }))
