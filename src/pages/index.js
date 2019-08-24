@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Nav from "../components/Nav"
-import profile from "../assets/images/profile.png"
+// import profile from "../assets/images/profile.png"
 
 class Index extends React.Component {
   constructor(props) {
@@ -58,9 +58,9 @@ class Index extends React.Component {
                   </li>
                 </ul>
               </div>
-              <span className="image">
+              {/* <span className="image">
                 <img src={profile} alt="" />
-              </span>
+              </span> */}
             </div>
           </section>
 
