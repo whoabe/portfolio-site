@@ -50,13 +50,13 @@ class Index extends React.Component {
                   things, and now i'm reinventing myself to build software
                   things.
                 </p>
-                <ul className="actions">
+                {/* <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
                       Learn More
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               <span className="image">
                 <img src={profile} alt="" />
