@@ -23,6 +23,7 @@ module.exports = {
         theme_color: "#663399",
         display: "minimal-ui",
         icon: "src/assets/images/w.jpg", // This path is relative to the root of the site.
+        profile: "src/assets/images/profile.png",
       },
     },
     "gatsby-plugin-sass",
