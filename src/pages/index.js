@@ -92,7 +92,7 @@ class Index extends React.Component {
               <li>
                 <span className="icon major style5 fa-comments"></span>
                 <h3>
-                  <a href="https://github.com/whoabe/chat-app">
+                  <a href="https://github.com/whoabe/socket-chat">
                     Socket.io Chat
                   </a>
                 </h3>
