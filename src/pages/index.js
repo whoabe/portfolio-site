@@ -71,24 +71,34 @@ class Index extends React.Component {
             <ul className="projects">
               <li>
                 <span className="icon major style1 fa-code"></span>
-                <h3>Splits</h3>
+                <h3>
+                  <a href="https://splits.netlify.com">Splits</a>
+                </h3>
                 <p>
                   Receipt image parsing and bill-splitting web app using google
                   vision AI, Flask, React.js, and AWS.
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Abegram</h3>
+                <span className="icon major style3 fa-instagram"></span>
+                <h3>
+                  <a href="https://abegram.herokuapp.com">Abegram</a>
+                </h3>
                 <p>
                   Social image sharing site inspired by Instagram using Flask
                   and AWS.
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Socket.io Chat</h3>
-                <p>React based chat using socket.io</p>
+                <span className="icon major style5 fa-comments"></span>
+                <h3>
+                  <a href="https://github.com/whoabe/chat-app">
+                    Socket.io Chat
+                  </a>
+                </h3>
+                <p>
+                  Simple chat app using Socket.io and React.js (In progress)
+                </p>
               </li>
             </ul>
             {/* <footer className="major">
