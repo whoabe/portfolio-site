@@ -96,9 +96,7 @@ class Index extends React.Component {
                     Socket.io Chat
                   </a>
                 </h3>
-                <p>
-                  Simple chat app using Socket.io and React.js (In progress)
-                </p>
+                <p>Chat app using Socket.io and React.js</p>
               </li>
             </ul>
             {/* <footer className="major">
