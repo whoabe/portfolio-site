@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import Helmet from "react-helmet"
 import { Waypoint } from "react-waypoint"
 
@@ -70,7 +70,9 @@ class Index extends React.Component {
             </header>
             <ul className="projects">
               <li>
-                <span className="icon major style1 fa-code"></span>
+                <a href="https://splits.netlify.com">
+                  <span className="icon major style1 fa-code"></span>
+                </a>
                 <h3>
                   <a href="https://splits.netlify.com">Splits</a>
                 </h3>
@@ -78,6 +80,15 @@ class Index extends React.Component {
                   Receipt image parsing and bill-splitting web app using google
                   vision AI, Flask, React.js, and AWS.
                 </p>
+              </li>
+              <li>
+                <span className="icon major style1 fa-code"></span>
+                <h3>
+                  <a href="https://github.com/whoabe/todo-reactnative-redux">
+                    React Native Todo App
+                  </a>
+                </h3>
+                <p>React Native Todo App using Redux.</p>
               </li>
               <li>
                 <span className="icon major style3 fa-instagram"></span>
@@ -97,6 +108,16 @@ class Index extends React.Component {
                   </a>
                 </h3>
                 <p>Chat app using Socket.io and React.js</p>
+              </li>
+              <li>
+                <span className="icon major style1 fa-code"></span>
+                <h3>
+                  <a href="https://github.com/whoabe/bjak">Movie Gallery</a>
+                </h3>
+                <p>
+                  Movie Gallery using React.Js and pulling information from
+                  Hooqtv. ~Coding Challenge
+                </p>
               </li>
             </ul>
             {/* <footer className="major">
