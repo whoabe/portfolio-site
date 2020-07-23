@@ -82,7 +82,9 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style1 fa-code"></span>
+                <a href="https://github.com/whoabe/todo-tracker">
+                  <span className="icon major style1 fa-code"></span>
+                </a>
                 <h3>
                   <a href="https://github.com/whoabe/todo-tracker">
                     Todo Time Tracker
@@ -93,7 +95,9 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-instagram"></span>
+                <a href="https://abegram.herokuapp.com">
+                  <span className="icon major style3 fa-instagram"></span>
+                </a>
                 <h3>
                   <a href="https://abegram.herokuapp.com">Abegram</a>
                 </h3>
@@ -103,7 +107,9 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-comments"></span>
+                <a href="https://github.com/whoabe/socket-chat">
+                  <span className="icon major style5 fa-comments"></span>
+                </a>
                 <h3>
                   <a href="https://github.com/whoabe/socket-chat">
                     Socket.io Chat
@@ -112,7 +118,9 @@ class Index extends React.Component {
                 <p>Chat app using Socket.io and React.js</p>
               </li>
               <li>
-                <span className="icon major style1 fa-code"></span>
+                <a href="https://github.com/whoabe/bjak">
+                  <span className="icon major style1 fa-code"></span>
+                </a>
                 <h3>
                   <a href="https://github.com/whoabe/bjak">Movie Gallery</a>
                 </h3>
