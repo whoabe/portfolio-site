@@ -84,11 +84,13 @@ class Index extends React.Component {
               <li>
                 <span className="icon major style1 fa-code"></span>
                 <h3>
-                  <a href="https://github.com/whoabe/todo-reactnative-redux">
-                    React Native Todo App
+                  <a href="https://github.com/whoabe/todo-tracker">
+                    Todo Time Tracker
                   </a>
                 </h3>
-                <p>React Native Todo App using Redux.</p>
+                <p>
+                  Task Tracker based on Pomodoro Technique using the MERN stack.
+                </p>
               </li>
               <li>
                 <span className="icon major style3 fa-instagram"></span>
