@@ -95,18 +95,6 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <a href="https://abegram.herokuapp.com">
-                  <span className="icon major style3 fa-instagram"></span>
-                </a>
-                <h3>
-                  <a href="https://abegram.herokuapp.com">Abegram</a>
-                </h3>
-                <p>
-                  Social image sharing site inspired by Instagram using Flask
-                  and AWS.
-                </p>
-              </li>
-              <li>
                 <a href="https://github.com/whoabe/socket-chat">
                   <span className="icon major style5 fa-comments"></span>
                 </a>
