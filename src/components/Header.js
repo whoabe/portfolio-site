@@ -22,14 +22,6 @@ const Header = props => (
       <ul className="icons">
         <li>
           <a
-            href="https://twitter.com/AbrahamHo4"
-            className="icon fa-twitter alt"
-          >
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a
             href="https://www.instagram.com/whoabe/"
             className="icon fa-instagram alt"
           >
