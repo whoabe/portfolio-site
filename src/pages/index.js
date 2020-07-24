@@ -70,6 +70,19 @@ class Index extends React.Component {
             </header>
             <ul className="projects">
               <li>
+                <a href="https://todo-tracker1.herokuapp.com">
+                  <span className="icon major style1 fa-code"></span>
+                </a>
+                <h3>
+                  <a href="https://todo-tracker1.herokuapp.com">
+                    Todo Time Tracker
+                  </a>
+                </h3>
+                <p>
+                  Task Tracker based on Pomodoro Technique using the MERN stack.
+                </p>
+              </li>
+              <li>
                 <a href="https://splits.netlify.com">
                   <span className="icon major style1 fa-code"></span>
                 </a>
@@ -79,19 +92,6 @@ class Index extends React.Component {
                 <p>
                   Receipt image parsing and bill-splitting web app using google
                   vision AI, Flask, React.js, and AWS.
-                </p>
-              </li>
-              <li>
-                <a href="https://github.com/whoabe/todo-tracker">
-                  <span className="icon major style1 fa-code"></span>
-                </a>
-                <h3>
-                  <a href="https://github.com/whoabe/todo-tracker">
-                    Todo Time Tracker
-                  </a>
-                </h3>
-                <p>
-                  Task Tracker based on Pomodoro Technique using the MERN stack.
                 </p>
               </li>
               <li>
